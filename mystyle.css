@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Prompt:wght@400;700&family=Mitr:wght@400;700&display=swap");
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
 body {
   background-color: #decbec;
   background-image: url(resources/dokmai.jpg);
@@ -86,16 +91,15 @@ h1:hover {
   box-shadow: 0 8px 32px #934a8155;
 }
 .diff-btn {
-  background: #fff8fcbb;
-  color: #46005b;
+  background: #dc3e98bb;
+  color: #ffffff;
   border: none;
   border-radius: 6px;
   padding: 10px 20px;
   cursor: pointer;
-  font-family: "Kanit", sans-serif;
-  font-size: 1rem;
-  box-shadow: 0 5px 16px #95ecb8a9;
-  margin-top: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+  font-size: 1.1rem;
+  box-shadow: 0 5px 16px #ffb027a9;
 }
 
 .div-btn {
