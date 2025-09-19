@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Prompt:wght@400;700&family=Mitr:wght@400;700&display=swap");
+
+body {
+  background-color: #decbec;
+  background-image: url(resources/dokmai.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  background-color: #934a81ab;
+  color: #fefefe;
+  font-weight: 600;
+  font-size: 2.5rem;
+  border: 4px solid #7d0e7d;
+  box-shadow: 0 6px 16px #c05dd6;
+  padding: 2px 32px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 5px auto;
+  width: fit-content;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px #0d5127, 0 0 10px #42484c;
+  font-family: "Kanit", sans-serif;
+}
+
+h1:hover {
+  box-shadow: 0 8px 32px #8b008b55;
+}
+
+.product-list {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.product-poster {
+  background: #fff8fcbb;
+  border: 2px solid #934a81;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px #40dd3b33;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+
+.product-poster img {
+  width: 220px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 2px;
+}
+
+.product-poster h2 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+  color: #000000e9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #ffffff, 0 0 10px #42484c;
+}
+
+.price {
+  font-size: 1.7rem;
+  color: #000000;
+  font-weight: 500;
+}
+
+.product-poster button {
+  background: #934a81;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-size: 1rem;
+}
+.product-poster button:hover {
+  background: #7d0e7d;
+  box-shadow: 0 8px 32px #8b008b55;
+}
+.product-card:hover {
+  box-shadow: 0 8px 32px #934a8155;
+}
+.diff-btn {
+  background: #fff8fcbb;
+  color: #46005b;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-size: 1rem;
+  box-shadow: 0 5px 16px #95ecb8a9;
+  margin-top: 30px;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 24px;
+  padding: 10px 0;
+}
+.diff-btn:hover {
+  box-shadow: 0 8px 32px #934a8155;
+}
+
+.nav-btns button {
+  background: #fff8fcbb;
+  color: #46005b;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.5rem;
+  box-shadow: 0 5px 16px #9c164ba9;
+  padding: 10px 20px;
+  margin-top: 13px;
+  gap: 100px;
+}
+
+.page-btns {
+  background: #fff8fcbb;
+  color: #46005b;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Kanit", sans-serif;
+  text-shadow: 2px 2px 3px #f0dae3, 0 0 10px #187fc4;
+  font-size: 1.5rem;
+  box-shadow: 0 5px 16px #9c164ba9;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #e9e2f0;
+  text-shadow: 2px 2px 4px #8f25e6, 0 0 10px #42484c;
+  margin-top: 10px;
+  margin-bottom: -2px;
+}
