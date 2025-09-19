@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Prompt:wght@400;700&family=Mitr:wght@400;700&display=swap");
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 
 body {
   background-color: #decbec;
@@ -142,4 +146,31 @@ h2 {
   text-shadow: 2px 2px 4px #8f25e6, 0 0 10px #42484c;
   margin-top: 10px;
   margin-bottom: -2px;
+}
+.contact-pos {
+  background: linear-gradient(90deg, #e3f0ff 0%, #f9f9ff 100%);
+  border: 1.5px solid #0b3d91;
+  border-radius: 16px;
+  padding: 18px 32px;
+  margin: 32px auto 0 auto;
+  max-width: 400px;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.contact-pos h3 {
+  margin: 0 0 8px 0;
+  color: #fe002a;
+  font-size: 1.3em;
+  letter-spacing: 1px;
+}
+
+.contact-info {
+  font-size: 1.1em;
+  color: #0a131b;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
 }
